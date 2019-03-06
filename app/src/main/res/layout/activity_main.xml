@@ -17,4 +17,44 @@
         android:textColor="@android:color/white"
         android:onClick="audio"/>
 
+    <Button
+        android:id="@+id/btn_audio_sederhana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="audioSederhana"
+        android:text="Audio Sederhana"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <Button
+    android:id="@+id/btn_video"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:onClick="videoOffline"
+    android:text="Video Offline"
+    android:textAllCaps="false"
+    android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_audio_streaming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="audioStreaming"
+        android:text="Audio Streaming"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_video_streaming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="videoStreaming"
+        android:text="Video Streaming"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
 </LinearLayout>
